@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<script>
+			const path = window.location.pathname
+				.replace('/arcane-awakening', '')
+				.replace(/^\//, '')
+			window.location.replace('/arcane-awakening/?' + path)
+		</script>
+	</head>
+</html>
